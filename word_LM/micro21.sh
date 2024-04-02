@@ -12,5 +12,5 @@
 # python main.py --cuda -e --emsize 1500 --nhid 1500 --batch_size 40 --dropout 0.65 --tied --resume dre_LSTM_0.15_e10.pt --scale 0.15
 # python main.py --cuda -e --emsize 1500 --nhid 1500 --batch_size 40 --dropout 0.65 --tied --resume dre_LSTM_0.1_e10.pt --scale 0.1
 
-# For HPCA'23 in-storage processing
+# For ISCA'23 in-storage processing
 python main.py --cuda -e --emsize 1500 --nhid 1500 --batch_size 40 --dropout 0.65 --tied --resume dre_LSTM_e10.pt --scale 0.25
